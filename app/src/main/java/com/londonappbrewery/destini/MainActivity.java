@@ -9,10 +9,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView mStoryTextView;
-    Button mButtonTop;
-    Button mButtonBottom;
-    int mStoryIndex = 1;
+    private TextView mStoryTextView;
+    private Button mButtonTop;
+    private Button mButtonBottom;
+    private int mStoryIndex = 1;
 
 
     @Override
